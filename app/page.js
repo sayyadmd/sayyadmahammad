@@ -1,13 +1,9 @@
-import { redirect } from "next/navigation";
-
+import HomePage from "@/components/home/HomePage";
 export default function Home() {
-  function handleProjectClick() {
-    redirect("/projects");
-  }
   return (
-    <main className="flex items-center justify-between ">
+    <main className=" ">
       <h1>Hello guys , I am sayyad mahammad</h1>
-      {/* <button onClick={handleProjectClick}>projects</button> */}
+      <HomePage />
     </main>
   );
 }
