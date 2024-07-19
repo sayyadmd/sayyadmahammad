@@ -1,9 +1,9 @@
-import HomePage from "@/components/home/HomePage";
+// import HomePage from "@/components/home/HomePage";
 export default function Home() {
   return (
-    <main className=" ">
+    <main className="w-full h-full bg-[#000] text-[#fff] ">
       <h1>Hello guys , I am sayyad mahammad</h1>
-      <HomePage />
+      {/* <HomePage /> */}
     </main>
   );
 }
