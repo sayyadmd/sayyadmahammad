@@ -5,7 +5,7 @@ export default function TopBar() {
       <h1 className="font-['lobster'] text-3xl ">SAYYAD MAHAMMAD</h1>
       <div className="flex items-center gap-3 ">
         {socialAssets.map(({ name, link, icon }) => (
-          <a href={link}>
+          <a key={name} href={link}>
             <img src={icon} alt={name} width="20" />
           </a>
         ))}
