@@ -1,27 +1,22 @@
 export const lhsItems = [
   {
     path: "",
-    title: "github",
+    label: "Home",
     icon: "icons/github.png",
   },
   {
     path: "icons/github.png",
-    title: "github",
+    label: "about",
     icon: "icons/github.png",
   },
   {
     path: "icons/github.png",
-    title: "github",
+    label: "Experience",
     icon: "icons/github.png",
   },
   {
     path: "icons/github.png",
-    title: "github",
-    icon: "icons/github.png",
-  },
-  {
-    path: "icons/github.png",
-    title: "github",
+    label: "Contact",
     icon: "icons/github.png",
   },
 ];
