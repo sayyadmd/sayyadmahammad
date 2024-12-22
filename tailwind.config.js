@@ -19,7 +19,7 @@ module.exports = {
       mono: ["ui-monospace", "SFMono-Regular"],
       display: ["Oswald"],
       body: ['"Open Sans"'],
-      lobster: ["Lobster"],
+      // lobster: ["Lobster"],
     },
   },
   plugins: [],
