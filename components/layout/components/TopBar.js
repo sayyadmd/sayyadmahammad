@@ -8,7 +8,6 @@ export default function TopBar() {
       <div className="flex items-center gap-3 ">
         {socialAssets.map(({ name, link, Icon }) => (
           <a key={name} href={link}>
-            {/* <img src={icon} alt={name} width="20" /> */}
             <Icon />
           </a>
         ))}
