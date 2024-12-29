@@ -1,21 +1,28 @@
+import {
+  GithubIcon,
+  LeetcodeIcon,
+  LinkedinIcon,
+  InstagramIcon,
+} from "@/shared/icons";
+
 export const socialAssets = [
   {
-    icon: "icons/github.png",
+    Icon: () => <GithubIcon />,
     name: "github",
     link: "",
   },
   {
-    icon: "icons/leetcode.png",
+    Icon: () => <LeetcodeIcon />,
     name: "leetcode",
     link: "",
   },
   {
-    icon: "icons/linkedin.png",
+    Icon: () => <LinkedinIcon />,
     name: "linkedin",
     link: "",
   },
   {
-    icon: "icons/instagram.png",
+    Icon: () => <InstagramIcon />,
     name: "instagram",
     link: "",
   },

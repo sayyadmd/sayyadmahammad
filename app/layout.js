@@ -1,8 +1,18 @@
-import { Inter } from "next/font/google";
 import "./globals.css";
 import Layout from "@/components/layout";
+import { Inter, Roboto_Mono } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+});
+
+const roboto_mono = Roboto_Mono({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-roboto-mono",
+});
 
 export const metadata = {
   title: "Sayyad Mahammad",
@@ -20,7 +30,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </head> */}
-      <body className={inter.className}>
+      <body className={`${inter.variable} ${roboto_mono.variable}`}>
         <Layout>{children}</Layout>
       </body>
     </html>
