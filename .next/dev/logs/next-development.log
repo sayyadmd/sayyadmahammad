@@ -1,0 +1,177 @@
+[00:00:01.335] Server  LOG     ✓ Ready in 775ms
+[00:02:39.855] Server  LOG     ○ Compiling / ...
+[00:02:41.792] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at lt (/home/sayyad/my-repos/portfolio2/node_modules/tailwindcss/dist/lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.js
+[00:02:42.155] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at lt (/home/sayyad/my-repos/portfolio2/node_modules/tailwindcss/dist/lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.js
+[00:03:01.229] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at lt (/home/sayyad/my-repos/portfolio2/node_modules/tailwindcss/dist/lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.js
+[00:04:34.065] Server  ERROR   ⨯ [turbopack-node]/transforms/postcss.ts:10:1
+Module not found: Can't resolve '@vercel/turbopack/postcss'
+   8 |
+   9 | // @ts-ignore
+> 10 | import postcss from '@vercel/turbopack/postcss'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | // @ts-ignore
+  12 | import importedConfig from 'CONFIG'
+  13 | import { getReadEnvVariables, toPath, type TransformIpc } from './transforms'
+
+Import map: aliased to module "'postcss'" inside of [project]/ | aliased to module "'postcss'" inside of [project]/node_modules/next
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:34.070] Server  ERROR   ⨯ [turbopack-node]/transforms/postcss.ts:10:1
+Module not found: Can't resolve '@vercel/turbopack/postcss'
+   8 |
+   9 | // @ts-ignore
+> 10 | import postcss from '@vercel/turbopack/postcss'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | // @ts-ignore
+  12 | import importedConfig from 'CONFIG'
+  13 | import { getReadEnvVariables, toPath, type TransformIpc } from './transforms'
+
+Import map: aliased to module "'postcss'" inside of [project]/ | aliased to module "'postcss'" inside of [project]/node_modules/next
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:04:34.196] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at lt (/home/sayyad/my-repos/portfolio2/node_modules/tailwindcss/dist/lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.js
+[00:04:34.197] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '@vercel/turbopack/postcss'
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/transforms.ts:85:1)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/transforms.ts:85:1)]
+    [at Context.asyncModule (turbopack:///[turbopack]/shared/runtime-utils.ts:685:3)]
+    [at module evaluation (turbopack:///[turbopack-node]/transforms/transforms.ts:85:1)]
+    [at instantiateModule (turbopack:///[turbopack]/nodejs/runtime.ts:226:5)]
+    [at getOrInstantiateModuleFromParent (turbopack:///[turbopack]/nodejs/runtime.ts:259:10)]
+    [at Context.esmImport (turbopack:///[turbopack]/shared/runtime-utils.ts:347:18)]
+    [at /home/sayyad/my-repos/portfolio2/.next/dev/build/chunks/[turbopack-node]_transforms_postcss_ts_df7a5b11._.js:8:16]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:75:20)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.js
+[00:04:34.197] Browser ERROR   [turbopack-node]/transforms/postcss.ts:10:1
+Module not found: Can't resolve '@vercel/turbopack/postcss'
+   8 |
+   9 | // @ts-ignore
+> 10 | import postcss from '@vercel/turbopack/postcss'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | // @ts-ignore
+  12 | import importedConfig from 'CONFIG'
+  13 | import { getReadEnvVariables, toPath, type TransformIpc } from './transforms'
+
+Import map: aliased to module "'postcss'" inside of [project]/ | aliased to module "'postcss'" inside of [project]/node_modules/next
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:34.328] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at lt (/home/sayyad/my-repos/portfolio2/node_modules/tailwindcss/dist/lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.js
+[00:04:34.328] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+Error: Cannot find module '@vercel/turbopack/postcss'
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/transforms.ts:85:1)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/transforms.ts:85:1)]
+    [at Context.asyncModule (turbopack:///[turbopack]/shared/runtime-utils.ts:685:3)]
+    [at module evaluation (turbopack:///[turbopack-node]/transforms/transforms.ts:85:1)]
+    [at instantiateModule (turbopack:///[turbopack]/nodejs/runtime.ts:226:5)]
+    [at getOrInstantiateModuleFromParent (turbopack:///[turbopack]/nodejs/runtime.ts:259:10)]
+    [at Context.esmImport (turbopack:///[turbopack]/shared/runtime-utils.ts:347:18)]
+    [at /home/sayyad/my-repos/portfolio2/.next/dev/build/chunks/[turbopack-node]_transforms_postcss_ts_df7a5b11._.js:8:16]
+    [at process.processTicksAndRejections (node:internal/process/task_queues:95:5)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:75:20)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.js
+[00:04:34.328] Browser ERROR   [turbopack-node]/transforms/postcss.ts:10:1
+Module not found: Can't resolve '@vercel/turbopack/postcss'
+   8 |
+   9 | // @ts-ignore
+> 10 | import postcss from '@vercel/turbopack/postcss'
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | // @ts-ignore
+  12 | import importedConfig from 'CONFIG'
+  13 | import { getReadEnvVariables, toPath, type TransformIpc } from './transforms'
+
+Import map: aliased to module "'postcss'" inside of [project]/ | aliased to module "'postcss'" inside of [project]/node_modules/next
+
+https://nextjs.org/docs/messages/module-not-found
+[00:04:36.479] Server  LOG     ✓ Compiled in 2.2s
+[00:04:36.581] Browser ERROR   ./styles/globals.css
+Error evaluating Node.js code
+Error: It looks like you're trying to use `tailwindcss` directly as a PostCSS plugin. The PostCSS plugin has moved to a separate package, so to continue using Tailwind CSS with PostCSS you'll need to install `@tailwindcss/postcss` and update your PostCSS configuration.
+    [at lt (/home/sayyad/my-repos/portfolio2/node_modules/tailwindcss/dist/lib.js:38:1643)]
+    [at <anonymous> (turbopack:///[turbopack-node]/transforms/postcss.ts:56:14)]
+    [at <anonymous>]
+    [at Module.init (turbopack:///[turbopack-node]/transforms/postcss.ts:43:33)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:77:20)]
+
+Import trace:
+  Browser:
+    ./styles/globals.css
+    ./pages/_app.js
+[00:11:18.475] Server  LOG     ✓ Compiled in 195ms
+[00:11:20.363] Server  LOG     ✓ Compiled in 131ms
